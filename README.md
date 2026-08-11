@@ -1,27 +1,25 @@
-# Maitree_Computer_Institute_V1
-management web app
-# Maitree Computer Institute Management — V1
-
-A browser-based institute management prototype for student registration, fees, inquiries, courses, WhatsApp follow-up, dashboard charts, Excel export and backup/restore.
-
-## Run
-Open `index.html` in a modern browser. No server is required for this prototype.
-
-Data is stored in the browser's localStorage. Use **Backup Data** regularly.
+# Maitree Computers & Multiservices — Institute Management V1.2
 
 ## Included
-- 12-month registration chart
-- Course-wise chart
-- New student registration
-- Automatic student ID
-- Fees, discount, initial payment and installment history
-- Student list, search, view/edit/delete
-- Excel export
-- Inquiry management and follow-up status
-- Direct WhatsApp links with custom/prepared messages
+- Dashboard with 12-month registration chart and course-wise chart
+- New Registration as the first navigation item
+- Student records grouped and sorted by registration month
+- Automatic Student IDs
+- Fees, discounts, paid and remaining fees
+- Payment/installment history
+- Half-A4 payment receipt with institute logo, contact details and signatures
+- Welcome/admission page printing
+- Excel export with institute branding, logo and fee columns
+- Inquiry management and direct WhatsApp messages
 - Course management
-- Pending-fee report
-- JSON backup/restore
+- Backup and restore
+- Responsive desktop/mobile interface
 
-## Next production upgrade
-Move data from localStorage to a Node.js/Express + MongoDB backend, add secure login, multi-user permissions, server-side backups, receipt numbering and deployment.
+## Run
+Extract the ZIP and open `index.html` in Chrome or Edge. The app stores data in browser localStorage. Internet is required for the Chart.js and ExcelJS CDN libraries unless those libraries are later bundled locally.
+
+## Default institute details
+- Name: Maitree Computers & Multiservices
+- Address: Wai (Bazar), Ta. Mahur
+- Mobile: +91 83810 30065
+- Email: enter your email under Institute Details
